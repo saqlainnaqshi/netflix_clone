@@ -1,0 +1,365 @@
+<html>
+<head>
+<title>NETFLIX</title>
+<link type="image/png" sizes="16x16" rel="icon" href=" favicon.ico">
+
+<style>
+
+*{
+margin:0px;
+font-family:sans-serif;
+}
+
+.firstSection{
+  position:relative;
+  width:100%;
+  background-image:url("netflix.jpg");
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover; 
+  color:rgb(255, 255, 255);
+  text-align:center;
+  padding-bottom:180px;
+}
+
+.tint{
+background-color:black;
+opacity:0.7;
+width:100%;
+height:-webkit-fill-available;
+position:absolute;
+}
+
+.nav{
+display:flex;
+flex-flow:
+row nowrap;
+gap:60%;
+position:relative;
+padding:26px 12%;"
+}
+
+.logo{
+width:150px;
+height:42px;
+}
+
+.navBtns{
+display: flex;
+flex-flow: row nowrap;
+gap: 25px;
+}
+
+.signIn{
+width:77px;
+height:32px;
+padding:4px 16px;
+border:none;
+border-radius:2px;
+font-weight: bold;
+}
+
+.lang{
+width:126px;
+height:32px;
+padding:6px 36px;
+background-color:rgba(10,10,10,0.6);
+color:rgb(255,255,255);
+border:none;
+outline:1px solid rgb(120,120,120);
+border-radius:4px;
+font-size: medium;
+}
+
+.redBtn{
+color:white;
+background-color:rgb(230,0,0);
+border:none;
+border-radius: 5px;
+}
+
+.redBtn:hover{
+background-color: rgb(193, 17, 25);
+}
+
+
+.getStarted{
+font-size:25px;
+text-align:center;
+margin-top: 14%;
+position:relative;
+}
+
+.form{
+padding-top: 10px;
+display: flex;
+justify-content: center;
+}
+
+#email{
+padding:24px 16px 8px 16px;
+width: 368px;
+height:56px;
+background-color:rgba(24, 21, 21, 0.7);
+color:rgb(138, 131, 131);
+border:none;
+outline:1px solid rgb(138, 131, 131);
+border-radius:4px;
+}
+
+.getStartedBtn{
+width: 210px;
+height: 56px;
+padding:12px 24px;
+margin-left: 8px;
+font-weight: bold;
+font-size: 25px;
+}
+
+.box{
+max-width:100%;
+background-color:black;
+border-top:8px solid rgb(33 31 31);
+padding:72px 150px;
+color:white;
+}
+
+.flexbox{
+display:flex;
+margin:0 32px;
+}
+
+.textBox{
+color:white;
+padding:20px;
+padding-top:60px;
+font-size:22px;
+margin-right: 114px;
+}
+
+.textBoxRight{
+margin-right: 0px;
+}
+
+.questions{
+max-width:95%;
+height:36px;
+background-color: rgb(45, 45, 45);
+margin:8px;
+padding:24px;
+font-size:24px;
+}
+
+.questions:hover{
+background-color: rgb(63 62 62);
+}
+
+#table{
+color: rgba(255, 255, 255, 0.7);
+text-decoration:underline;
+margin:15px 0px;
+}
+
+td{
+padding:10px 80px 10px 0px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="firstSection">
+
+<div class="tint"></div>
+
+<div class="nav">
+<img src="netflix_logo.png" class="logo">
+<div class="navBtns">
+<button class="lang">English</button>
+<button class="signIn redBtn">Sign In</button>
+</div>
+</div>
+
+
+<div class="getStarted">
+
+<h1>Unlimited movies, TV shows and more</h1><br/>
+<p>Watch anywhere. Cancel anytime.</p><br/>
+<p style="font-size:20px;">Ready to watch? Enter your email to create or restart your membership.</p>
+<div class="form">
+<input type="text" placeholder="Email address" id="email"/>
+<button class="redBtn getStartedBtn">Get Started &gt</button>
+</div>
+</div>
+</div>
+
+
+
+
+
+<div class="box">
+<div class="flexbox">
+<div class="textBox">
+
+<span style="font-weight:bold; display:inline-block; margin-bottom:30px; font-size:44px;">Enjoy on your TV</span>
+<span>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</span>
+</div>
+
+<div >
+<video src="Tv.m4v" muted autoplay loop style="width:325px; height:328px; position:relative; top:-3px;"/>
+</div>
+<img src="tv.png" style="width:444px; height:333px; position:absolute; right:120px;"/>
+
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="box">
+<div class="flexbox">
+
+<div style="position:relative;">
+<img src="strangerThings.jpg" style="width:444px; height:333px;"/>
+
+<div style="position:absolute; width:266px; height:76px; border:2px solid rgba(128, 128, 128, 0.7); top:213px; right:-72px;  bottom:26px; left:74px; padding:8 12; border-radius:15px; background-color:#000; display:flex; ">
+<img src="strangerThings1.jpg" style="width:54px;height:78px;"/>
+
+<div style=" padding:20px;">
+<p style="color:white;">Stranger Things</p>
+<p style="color:blue;">Downloading...</p>
+</div>
+</div>
+</div>
+
+<div class="textBox textBoxRight">
+<span style="font-weight:bold; display:inline-block; margin-bottom:30px; font-size:44px;">Download your shows to watch offline</span>
+<span>Save your favourites easily and always have something to watch.</span>
+</div>
+</div>
+</div>
+
+
+
+
+
+<div class="box">
+<div class="flexbox">
+<div class="textBox">
+<span style="font-weight:bold; display:inline-block; margin-bottom:30px; font-size:44px;">Watch everywhere</span><br>
+<span>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</span>
+</div>
+
+<div>
+<video src="Mac.m4v" muted autoplay loop style="width: 281px; height: 328px; position: relative; right: 20px; top: -46px;"/>
+</div>
+<img src="Mac.png" style="width:444px; height:333px; position:absolute; right:120px;"/>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+<div class="box">
+<div class="flexbox">
+
+<div>
+<img src="children.png" style="width:444px; height:333px;"/>
+</div>
+
+<div class="textBox textBoxRight">
+<span style="font-weight:bold; display:inline-block; margin-bottom:30px; font-size:44px;">Create profiles for kids</span>
+<span>Send children on adventures with their favourite characters in a space made just for them—free with your membership.</span>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+<div class="box">
+
+<h2 style="text-align: center; font-size:50px; margin-bottom:20px;">Frequenty Asked Questions</h2>
+
+<div class="questions">What is Netflix?</div>
+<div class="questions">How much does Netflix cost?</div>
+<div class="questions">Where can I watch?</div>
+<div class="questions">How do I cancel?</div>
+<div class="questions">What can I watch on Netflix?</div>
+<div class="questions">Is Netflix good for kids?</div>
+
+<p style="font-size:20px; text-align:center; padding:30px 0px 10px;">Ready to watch? Enter your email to create or restart your membership.</p>
+
+<div class="form">
+<input type="text" placeholder="Email address" id="email"/>
+<button class="redBtn getStartedBtn">Get Started &gt</button>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+<div class="box" style="color: rgba(255, 255, 255, 0.7);">
+
+<p>Questions? Call <span style="text-decoration:underline;">000-800-919-1694</span></p>
+
+<table id="table">
+<tbody>
+<tr> 
+<td>FAQ</td><td>Help Centre</td><td>Account</td><td>Media Centre</td>
+</tr>
+
+<tr>
+<td>Investor Relations</td><td>Jobs</td><td>Ways to Watch</td><td>Terms of Use</td>
+</tr>
+
+<tr>
+<td>Privacy</td><td>Cookie Preferences</td><td>Corporate Information</td><td>Contact Us</td>
+</tr>
+
+<tr>
+<td>Speed Test</td><td>Legal Notices</td><td>Only on Netflix</td>
+</tr>
+</tbody>
+</table>
+
+<button class="lang">English</button>
+<p style="margin-top:30px;">Netflix India</p>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
